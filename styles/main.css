@@ -560,6 +560,9 @@ html[subframe] body {
     position: absolute;
     top: 0;
 }
+canvas {
+    background-image: url('../images/plx-4.png'), url('../images/plx-3.png'), url('../images/plx-2.png'), url('../images/plx-1.png');
+}
 
 .offline .controller {
     background: rgba(247, 247, 247, .1);

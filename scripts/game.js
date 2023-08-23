@@ -1670,7 +1670,7 @@ function hideClass(name) {
     */
     HorizonLine.dimensions = {
         WIDTH: 600,
-        HEIGHT: 12,
+        HEIGHT: 40,
         YPOS: 127
     };
     HorizonLine.prototype = {
