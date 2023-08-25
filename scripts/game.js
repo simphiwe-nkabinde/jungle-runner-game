@@ -1170,19 +1170,19 @@ function hideClass(name) {
     */
     Trex.animFrames = {
         WAITING: {
-            frames: [44, 0],
+            frames: [0, 44, 88],
             msPerFrame: 1000 / 3
         },
         RUNNING: {
-            frames: [88, 132],
+            frames: [132, 176, 220, 264, 308, 352, 396],
             msPerFrame: 1000 / 12
         },
         CRASHED: {
-            frames: [220],
+            frames: [484],
             msPerFrame: 1000 / 60
         },
         JUMPING: {
-            frames: [0],
+            frames: [440],
             msPerFrame: 1000 / 60
         }
     };
