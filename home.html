@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: url('/images/game-art.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .wrapper {
+            position: absolute;
+            width: 50vw;
+            height: 80%;
+            right: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        img {
+            width: 100%;
+            filter: drop-shadow(10px 10px 6px black);
+        }
+        button {
+            padding: 7px 15px;
+            border-radius: 10px;
+            font-size: 1.5rem;
+        }
+        p {
+            text-align: center;
+            color: white;
+            filter: drop-shadow(10px 10px 6px black);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="images/display-text.png" alt="">
+        <a href="/index.html">
+            <button>Play</button>
+        </a>
+        <p>
+            Help Bucky the Ranger escape the jungle by avoiding obstacles
+        </p>
+    </div>
+</body>
+</html>
