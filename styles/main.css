@@ -14,6 +14,9 @@ body {
     background-image: url('../images/plx-4.png'), url('../images/plx-3.png'), url('../images/plx-2.png'), url('../images/plx-1.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 5% 10%;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 body.safe-browsing {
@@ -115,6 +118,12 @@ input[type=checkbox] {
     /* max-width: 600px; */
     width: 100%;
 }
+.ad-wrapper {
+    text-align: center;
+    border: 1px solid rgba(51, 51, 51, 0.241);
+    margin: 10px 0;
+    width: 100%;
+}
 
 #malware-opt-in {
     font-size: .875em;
@@ -214,14 +223,14 @@ input[type=checkbox] {
 
 @media (max-width: 700px) {
     .interstitial-wrapper {
-        padding: 0 10%;
+        /* padding: 0 10%; */
     }
 }
 
 @media (max-height: 600px) {
     .interstitial-wrapper {
         /* margin-top: 5px; */
-        padding: 10% 10%;
+        /* padding: 10% 10%; */
     }
 }
 
@@ -551,8 +560,8 @@ html[subframe] body {
     border: 1px solid black;
 }
 .offline .runner-container {
-    height: 150px;
-    max-width: 600px;
+    /* height: 150px; */
+    /* max-width: 600px; */
     overflow: hidden;
     position: absolute;
     top: 10px;
@@ -561,8 +570,8 @@ html[subframe] body {
 }
 
 .offline .runner-canvas {
-    height: 150px;
-    max-width: 600px;
+    /* height: 150px; */
+    /* max-width: 600px; */
     opacity: 1;
     overflow: hidden;
     position: absolute;
