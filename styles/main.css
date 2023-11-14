@@ -10,6 +10,10 @@ body {
     background-color: #f7f7f7;
     color: #585858;
     font-size: 125%;
+    margin: 0;
+    background-image: url('../images/plx-4.png'), url('../images/plx-3.png'), url('../images/plx-2.png'), url('../images/plx-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body.safe-browsing {
@@ -107,8 +111,8 @@ input[type=checkbox] {
     box-sizing: border-box;
     font-size: 1em;
     line-height: 1.6em;
-    margin: 50px auto 0;
-    max-width: 600px;
+    /* margin: 50px auto 0; */
+    /* max-width: 600px; */
     width: 100%;
 }
 
@@ -216,7 +220,8 @@ input[type=checkbox] {
 
 @media (max-height: 600px) {
     .interstitial-wrapper {
-        margin-top: 5px;
+        /* margin-top: 5px; */
+        padding: 10% 10%;
     }
 }
 
@@ -430,7 +435,7 @@ a {
 @media (max-width: 640px),
 (max-height: 640px) {
     body {
-        margin: 15px;
+        /* margin: 15px; */
     }
 
     h1 {
@@ -542,6 +547,9 @@ html[subframe] body {
     width: 100%;
 }
 
+.runner-container {
+    border: 1px solid black;
+}
 .offline .runner-container {
     height: 150px;
     max-width: 600px;
@@ -597,7 +605,7 @@ canvas {
     }
 
     .interstitial-wrapper {
-        margin-top: 5%;
+        /* margin-top: 5%; */
     }
 
     .nav-wrapper {
